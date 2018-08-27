@@ -8,14 +8,19 @@ spring:
       server:
         git:
           uri: https://github.com/Iason09/config-server      # 配置Git仓库的地址
-          username: Iason09                                  # Git仓库的账号
-          password: 520551Cpr                                # Git仓库的密码
-#    bus:
-#      trace:
-#        enabled: true     # 开启cloud bus的跟踪
+          username: '{cipher}AQB8c+AGuCm1U41bCCfCTTNfCtZlubkZ6j7/ElJKYSgH6ZaQci6xSu/MujEnUi+pRk40apbNk8VZeFzlpFUq4JkzUETdxLhEUJZMgPAP2Ez+7VZ90KhXt39yIkvlvUNqHKkENtGuqvNg63jewqQzdi0YqQaHgxznZkdisGbezZdHr/vtWfJIpzC9ackGdntPkz9QPL3/3t7ZtplXz0pDE4XuYKtFVQAVCLKag
+                             LOFGMwTYi/AqNyZx3r0YDIC0ejUOWss8KAMVSPtGH3pxcujCOeYjfa2uWneSmvELaHvaS50SQW9RqX2TB+b2wTV0Vsd1q5Bn8xfKpOB03h0ODN6IUW7jr2TN+tQrfYDiLogn353B29DLwqwpFrR+FQ9kQ5tK+0='
+          password: '{cipher}AQCFy2rsNEJRFfK5mpwaLwe40pfLuY7An08p2Tbkd/V+NvzMjHq7MEy806T8zAvfdY4PLBuQadP+2ZsFAQbI7NaiNryyhCLDqmASN5poZCxJDghJsKAtA3NoX8S53KYkzBfoTMR0SCYnJHJjI/6VDRs2KDWzJ0nbESqEHz1NsOPGf/EeZQTesKcT2J4VQMH8WMYUF7g37XfvmrRq8VjMAk4EbFgP83XUW6l1k
+                             D+nlk1t6g1T60PIUsFQlYzZuw8SptABr6+14HJQloqY+VwJTE22Tql8bsfbldHBxeqEJQylkEUitcEz8ikTajWFcNP7DDxAO7L889UVlKyFnpeVohDD6W5dOhqiYbKIuICy8+Sl5+qdjXSQJjvpMK2wqpV43k4='
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
   rabbitmq:
     host: 119.27.166.15
     port: 5672
-    username: Iason
-    password: '{cipher}AQByxzICdTFK9+k6Ep0hDomssXFb1rB6Vik73tpKEOwd6dx/v8MLjHIDjBSF516yI1v9jMl+4yqBw+sF+GcwuGEUkJEHikAZbpC4Yb2Qbyxiy5G7xUWXoO9Nn+qvSvEjDREIHqmUxuEf5QGTRSesiu+HrZHIQM7/FQkpqWZpwWD5mNzGF6EBySa7ERygesIlvqxy0QzH5OgOs9dvAyeUxrbotWsmEWVd/dkuu7rgc+ZBoLQLacE1wi5ndMYCEYFz+088PGbJhFYTkLDCVpu3fPleB6j8RgYeDc0MYOf6AKy2wYLPrtUv5oihb9Xj4eiwPBZMe2lh+3tRFjPtS+JFeIT5n/64B+RroqyeQHYKHrc+rQicVDT6nTEUMbIWWuoCRDI='
-#    password: wwy383059893
+    username: '{cipher}AQAYTM+V1ttfYU/tE3EpI9N6d6VY+ut3r4Syzgns6mgGpBP2l0/vvUqkQ6XrCFOfo8H4sQ5RTAsnni6g+N5+1KOoVfSnh5ssvKDeGSDPrcEAdjYg2HAv88u0maITb0FyQ2aplf/VuA5oZ/i9pIDYf9iKCmewJ4933lRSVoiROZpk1qviRZA5zmnya25FhG18bnVRKZQAhiw6i+m5QHPGOThWGI28xm1ndeokQ
+                       zlhe5tfNb9CpPmQBqD+v1ep6LD1nz3mrZfoq7eGXidx4qXxfilHUApd4VR+ItbifBBXB3Eumdi1Z3nPaozlHJ25YyvT7jig7V+CQxrZwQ70yzDneenRzDeG5i8aM8/nzV/hz4ucc16IOXYuUj8WHvUGwavohgQ='
+    password: '{cipher}AQByxzICdTFK9+k6Ep0hDomssXFb1rB6Vik73tpKEOwd6dx/v8MLjHIDjBSF516yI1v9jMl+4yqBw+sF+GcwuGEUkJEHikAZbpC4Yb2Qbyxiy5G7xUWXoO9Nn+qvSvEjDREIHqmUxuEf5QGTRSesiu+HrZHIQM7
+                       /FQkpqWZpwWD5mNzGF6EBySa7ERygesIlvqxy0QzH5OgOs9dvAyeUxrbotWsmEWVd/dkuu7rgc+ZBoLQLacE1wi5ndMYCEYFz+088PGbJhFYTkLDCVpu3fPleB6j8RgYeDc0MYOf6AKy2wYLPrtUv5oihb9Xj4e
+                       iwPBZMe2lh+3tRFjPtS+JFeIT5n/64B+RroqyeQHYKHrc+rQicVDT6nTEUMbIWWuoCRDI='
+
