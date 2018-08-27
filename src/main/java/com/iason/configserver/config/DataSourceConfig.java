@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Created by Iason on 2018/8/27.
  */
 @Component
-@PropertySource(value = "classpath:encryption.yml")
+@PropertySource(value = "classpath:encryption.properties")
 public class DataSourceConfig {
 
 	public String getUserName() {
