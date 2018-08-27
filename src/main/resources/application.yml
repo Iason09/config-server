@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/Iason09/config-server      # 配置Git仓库的地址
-          username: Iason                                    # Git仓库的账号
-          password: 520551CPR                                # Git仓库的密码
+          username: Iason09                                  # Git仓库的账号
+          password: 520551Cpr                                # Git仓库的密码
     bus:
       trace:
         enabled: true     # 开启cloud bus的跟踪
