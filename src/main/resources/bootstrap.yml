@@ -1,0 +1,6 @@
+encrypt:
+  keyStore:
+    location: classpath:/config-server.jks    # jks文件的路径
+    password: elephant                        # storepass
+    alias: dog                                # alias
+    secret: dinosaur                          # keypass

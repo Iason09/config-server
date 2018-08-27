@@ -10,17 +10,12 @@ spring:
           uri: https://github.com/Iason09/config-server      # 配置Git仓库的地址
           username: Iason09                                  # Git仓库的账号
           password: 520551Cpr                                # Git仓库的密码
-    bus:
-      trace:
-        enabled: true     # 开启cloud bus的跟踪
+#    bus:
+#      trace:
+#        enabled: true     # 开启cloud bus的跟踪
   rabbitmq:
     host: 119.27.166.15
     port: 5672
     username: Iason
-    password: wwy383059893
-encrypt:
-  keyStore:
-    location: classpath:/config-server.jks # jks文件的路径
-    password: elephant               # storepass
-    alias: dog                # alias
-    secret: dinosaur                # keypass
+    password: '{cipher}AQByxzICdTFK9+k6Ep0hDomssXFb1rB6Vik73tpKEOwd6dx/v8MLjHIDjBSF516yI1v9jMl+4yqBw+sF+GcwuGEUkJEHikAZbpC4Yb2Qbyxiy5G7xUWXoO9Nn+qvSvEjDREIHqmUxuEf5QGTRSesiu+HrZHIQM7/FQkpqWZpwWD5mNzGF6EBySa7ERygesIlvqxy0QzH5OgOs9dvAyeUxrbotWsmEWVd/dkuu7rgc+ZBoLQLacE1wi5ndMYCEYFz+088PGbJhFYTkLDCVpu3fPleB6j8RgYeDc0MYOf6AKy2wYLPrtUv5oihb9Xj4eiwPBZMe2lh+3tRFjPtS+JFeIT5n/64B+RroqyeQHYKHrc+rQicVDT6nTEUMbIWWuoCRDI='
+#    password: wwy383059893
