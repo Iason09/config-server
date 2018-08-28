@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8089
 spring:
   application:
     name: config-server
@@ -25,5 +25,11 @@ spring:
                        iwPBZMe2lh+3tRFjPtS+JFeIT5n/64B+RroqyeQHYKHrc+rQicVDT6nTEUMbIWWuoCRDI='
 management:
   security:
-    enabled: false  #忽略权限拦截
+    enabled: false       # 忽略权限拦截
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
 
